@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Setup result</title>
+</head>
+<body>
+  <h1>Result</h1>
+  <p th:text="'Name: ' + ${teacher.name}"/>
+  <p th:text="'Email: ' + ${teacher.email}"/>
+    <p th:text="'Group: ' + ${teacher.group}"/>
+  <a href="/setup">Add another teacher</a>
+</body>
+</html>
